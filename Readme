@@ -1,0 +1,31 @@
+##Citation to the original paper
+%0 Journal Article
+%T Graph Neural Network-Based Diagnosis Prediction
+%D 2020
+%J Big Data
+%P 379-390
+%V 8
+%N 5
+%R 10.1089/big.2020.0070
+%M 32783631
+%U https://www.liebertpub.com/doi/abs/10.1089/big.2020.0070
+
+
+##Link to the original paper’s repo 
+Not available
+##Dependencies
+Dependencies are setup correctly in requirements.txt
+##Data download instruction
+Download MIMIC dataset
+
+##Preprocess
+python3 preprocess_{dataset}.py --input_path {dataset_path} --output_path {storage_path}
+
+
+##Training code + command (if applicable)
+python3 train.py --data_path {storage_path} --embedding_size 512 --result_path {model_path}
+
+
+##Table of results
+GNDP (VGNN)	0.693	0.694	0.6636	0.676566	0.662401	0.697799
+ST-GCN	0.389	0.467	0.5376	0.6032		
