@@ -29,3 +29,7 @@ python3 train.py --data_path {storage_path} --embedding_size 512 --result_path {
 ##Table of results
 GNDP (VGNN)	0.693	0.694	0.6636	0.676566	0.662401	0.697799
 ST-GCN	0.389	0.467	0.5376	0.6032		
+
+
+##PKL files
+https://drive.google.com/drive/folders/1Hsnxzx9U-lfUCxFqSqWMpJg3OSx7K6Hm?usp=sharing
